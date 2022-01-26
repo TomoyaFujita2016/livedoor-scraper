@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "livedoor-scraper"
+version = "0.1.0"
+description = ""
+authors = ["TomoyaFujita2016 <fujita.t.2016c@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+lxml = "^4.7.1"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
